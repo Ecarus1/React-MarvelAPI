@@ -9,6 +9,7 @@
         font-weight: bold;
         font-size: 28px;
         line-height: 37px;
+        z-index: 300;
         span {
             color: $main-color;
         }
@@ -22,6 +23,7 @@
             line-height: 32px;
             li {
                 margin: 0 8px;
+                z-index: 300;
                 a:hover {
                     color: $main-color;
                 }
