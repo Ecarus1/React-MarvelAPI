@@ -17,7 +17,6 @@ const Page404 = () => {
     }, []);
 
     const moveLight = (e) => {
-        // console.log(e.clientX);
         light.current.style.top = e.clientY + "px";
         light.current.style.left = e.clientX + "px";
     }
