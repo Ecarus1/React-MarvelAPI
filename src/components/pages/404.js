@@ -1,5 +1,6 @@
 import { useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet';
 
 import './404.scss';
 
@@ -23,6 +24,13 @@ const Page404 = () => {
 
     return(
         <div>
+            <Helmet>
+                <meta
+                    name="description"
+                    content={`Content error`}
+                />
+                <title>Uh, ohh</title>
+            </Helmet>
             <div className="error__box">
                 <h1 className="error__title">404</h1>
                 <h2 className="error__title error__first">Uh, Ohh</h2>
